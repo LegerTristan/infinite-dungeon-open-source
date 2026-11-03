@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0c9bf11145387d4497bfc90888d31e9, type: 3}
+  m_Name: Fanatics
+  m_EditorClassIdentifier: 
+  tagName: Hooded cultists are actively hunting you through the dark.
+  repeatDelay: 3
+  hints:
+  - Slip into the shadows and let them pass.
+  - Ambush and fight the leading fanatic.
+  - Sprint away to break their line of sight
+  - Offer your meager food rations as a distraction.
+  durationBeforeEnded: 1
+  maxDuration: 2

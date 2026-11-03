@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 765a327e1b4f1e1478644643504f7ef2, type: 3}
+  m_Name: DryBread
+  m_EditorClassIdentifier: 
+  itemID: DryBread
+  itemName: Dry Bread
+  itemDescription: A bread that seems empty of any water. It is awfully dry but still
+    edible.
+  itemSprite: {fileID: 21300000, guid: 4911d37aedd40f24e80f7e46a0b60fd4, type: 3}
+  satietyGain: 0.1

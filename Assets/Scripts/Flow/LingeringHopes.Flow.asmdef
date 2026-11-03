@@ -1,0 +1,18 @@
+{
+    "name": "LingeringHopes.Flow",
+    "rootNamespace": "LingeringHopes.Flow",
+    "references": [
+        "GUID:ea8f4510817d47b45b01ffe34117686e",
+        "GUID:81d686fa1c4fb314197039a8bff58766",
+        "GUID:da008922c6576854c8f75c54ed678719"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

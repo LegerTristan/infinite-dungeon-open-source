@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1061229275043385896
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4020382449190631038}
+  - component: {fileID: 4480717934423016775}
+  m_Layer: 0
+  m_Name: RestMode
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4020382449190631038
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1061229275043385896}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 534.5001, y: 2182.9382, z: 0.030862242}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4480717934423016775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1061229275043385896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac225136ed115b544bbb55432c3c2add, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  satietyManager: {fileID: 0}
+  exitManager: {fileID: 0}
+  inventoryManager: {fileID: 0}
+  modePanel: {fileID: 0}
+  satietyUI: {fileID: 0}
+  exitProgressUI: {fileID: 0}
+  gatherableItems:
+  - {fileID: 11400000, guid: b060cf997e13a114f881a5048fba8823, type: 2}
+  - {fileID: 11400000, guid: d8a9ef3a5cabba64780bf87f2da701ee, type: 2}
+  - {fileID: 11400000, guid: 8a85327a8933bf148b1399cb745c3985, type: 2}
+  restPanel: {fileID: 0}
+  inventoryPanel: {fileID: 0}
+  detailPanel: {fileID: 0}
+  sleepAction:
+    actionName: Sleep
+    actionDescription: Choose to sleep tonight. Allowing to recover from any change
+      in your metabolism and lose less satiety for this night.
+  gatherFoodAction:
+    actionName: Search for food
+    actionDescription: Choose to rummage for food tonight. If you are lucky enough,
+      you might find something edible, or not..
+  progressAction:
+    actionName: Progress
+    actionDescription: Choose to progress tonight. You will get closer to the exit
+      but lose twice as usual of satiety.
+  gatherSuccessPercentage: 0.5
+  maxItemGatheredPerRest: 2

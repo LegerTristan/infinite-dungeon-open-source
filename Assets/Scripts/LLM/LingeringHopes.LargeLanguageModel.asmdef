@@ -1,0 +1,17 @@
+{
+    "name": "LingeringHopes.LargeLanguageModel",
+    "rootNamespace": "LingeringHopes.LargeLanguageModel",
+    "references": [
+        "GUID:cf7c06d97d9c3b7db881733f839f5ae3",
+        "GUID:ea8f4510817d47b45b01ffe34117686e"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

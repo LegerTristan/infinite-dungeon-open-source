@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52b8b7b36cfb41e4c840fd038a913730, type: 3}
+  m_Name: MainHall
+  m_EditorClassIdentifier: 
+  tagName: Main hall
+  repeatDelay: 2
+  compatibleEvents:
+  - {fileID: 11400000, guid: 8736ced2829e8d7479601baf79c9368c, type: 2}
+  - {fileID: 11400000, guid: bf0a18676fb407a428ebaf4516625f19, type: 2}
+  - {fileID: 11400000, guid: 4fba35b8467480241a2cd55f98e2a200, type: 2}
+  - {fileID: 11400000, guid: cb176d9724a93054997ed41693b4e0a3, type: 2}
+  - {fileID: 11400000, guid: b97d867f27e9fc04592c47384ec8b07f, type: 2}
+  decorationInformation:
+  - 'filled with crumbling ancestral statues and faded tapestries along the walls. '
+  - lit by flickering wall braziers over long, broken wooden banquet tables.
+  - arranged like a dark archive, crowded with rotting book stacks and reading desks.

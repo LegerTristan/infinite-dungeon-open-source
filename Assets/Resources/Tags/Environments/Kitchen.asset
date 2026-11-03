@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52b8b7b36cfb41e4c840fd038a913730, type: 3}
+  m_Name: Kitchen
+  m_EditorClassIdentifier: 
+  tagName: Kitchen
+  repeatDelay: 2
+  compatibleEvents:
+  - {fileID: 11400000, guid: 61adf638507f6f14d994a51a1620674e, type: 2}
+  - {fileID: 11400000, guid: 088150a729624f14abe2575bdcac3632, type: 2}
+  - {fileID: 11400000, guid: 031132a1abb16254c930c75296a0b1c2, type: 2}
+  - {fileID: 11400000, guid: abb25c8b7d768944b84b5bb72dad5074, type: 2}
+  decorationInformation:
+  - scattered with dull cleavers, iron spits, and rusted meat hooks.
+  - still warm from the hearth fires, though completely deserted right now.
+  - shadowy and cold, lit only by a few tallow candles on greasy prep tables.

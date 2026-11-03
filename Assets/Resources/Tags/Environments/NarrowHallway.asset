@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52b8b7b36cfb41e4c840fd038a913730, type: 3}
+  m_Name: NarrowHallway
+  m_EditorClassIdentifier: 
+  tagName: Narrow hallway
+  repeatDelay: 2
+  compatibleEvents:
+  - {fileID: 11400000, guid: 44a963aca09d4944ebeb2e81744727d0, type: 2}
+  - {fileID: 11400000, guid: 3ad34305e63fe6f45bbc10835ef49555, type: 2}
+  - {fileID: 11400000, guid: 9d2f0aadee7e1a2498e32bfa7755ca5b, type: 2}
+  - {fileID: 11400000, guid: 8e76b3db4d6e89a4eb69c7d7df4533e4, type: 2}
+  decorationInformation:
+  - choked with thick cobwebs and glistening with damp mold.
+  - littered with ancient, gnawed bones and cracked skulls.

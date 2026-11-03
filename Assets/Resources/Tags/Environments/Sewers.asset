@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52b8b7b36cfb41e4c840fd038a913730, type: 3}
+  m_Name: Sewers
+  m_EditorClassIdentifier: 
+  tagName: Sewers
+  repeatDelay: 1
+  compatibleEvents:
+  - {fileID: 11400000, guid: 47409b2be3290e243a0d6d65bae2b71b, type: 2}
+  - {fileID: 11400000, guid: 92f3f505d0a08094fa45ff7770b5d867, type: 2}
+  - {fileID: 11400000, guid: 088150a729624f14abe2575bdcac3632, type: 2}
+  - {fileID: 11400000, guid: d2c928e81aa47a34081dc70870d70b92, type: 2}
+  decorationInformation:
+  - reeking of stagnant muck and choked with bloated, decaying carcasses.
+  - cold and shadowy, filled with the constant echo of dripping water.
+  - branching into a confusing maze of flooded, low-ceiling tunnels.

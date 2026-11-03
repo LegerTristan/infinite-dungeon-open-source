@@ -1,0 +1,329 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &351530033494426932
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2575764486275095177}
+  - component: {fileID: 4470054557326383295}
+  m_Layer: 0
+  m_Name: NarrationAgent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2575764486275095177
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 351530033494426932}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6515703019792993882}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4470054557326383295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 351530033494426932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4326d5ae3b03ff55847035351559f4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  advancedOptions: 1
+  _remote: 0
+  _llm: {fileID: 1542767188434263868}
+  _APIKey: 
+  _host: localhost
+  _port: 13333
+  numRetries: 5
+  _grammar: "root   ::= string\nstring ::= (allowed_chars | \"\u2014\")+\nallowed_chars
+    ::= [a-zA-Z\\x20\\x2c\\x2e]"
+  numPredict: -1
+  cachePrompt: 1
+  seed: 0
+  temperature: 0.4
+  topK: 100
+  topP: 0.7
+  minP: 0.05
+  repeatPenalty: 1.2
+  presencePenalty: 0.1
+  frequencyPenalty: 0.2
+  typicalP: 1
+  repeatLastN: 128
+  mirostat: 0
+  mirostatTau: 5
+  mirostatEta: 0.1
+  nProbs: 0
+  ignoreEos: 0
+  save: 
+  debugPrompt: 1
+  _slot: 0
+  _systemPrompt: You are a narrator for a medieval survival game. The player is a
+    prisoner escaping the dungeon. Talk in third person. Refer to the player as "you".
+    Keep responses under 60 words. Use a descriptive tone.
+--- !u!1 &1460806017706129734
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2542079022703867984}
+  - component: {fileID: 2979656831496579133}
+  m_Layer: 0
+  m_Name: LogicAgent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2542079022703867984
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460806017706129734}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6515703019792993882}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2979656831496579133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460806017706129734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4326d5ae3b03ff55847035351559f4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  advancedOptions: 1
+  _remote: 0
+  _llm: {fileID: 1542767188434263868}
+  _APIKey: 
+  _host: localhost
+  _port: 13333
+  numRetries: 5
+  _grammar: 
+  numPredict: -1
+  cachePrompt: 1
+  seed: 0
+  temperature: 0.1
+  topK: 100
+  topP: 0.7
+  minP: 0.05
+  repeatPenalty: 1.2
+  presencePenalty: 0.1
+  frequencyPenalty: 0.2
+  typicalP: 1
+  repeatLastN: 128
+  mirostat: 0
+  mirostatTau: 5
+  mirostatEta: 0.1
+  nProbs: 0
+  ignoreEos: 0
+  save: 
+  debugPrompt: 1
+  _slot: 1
+  _systemPrompt: "You are a game engine for a medieval survival game. Define several
+    event actions based on the galme rules.\n\nGAME RULES:\n- Action: Under 5 words.\n-
+    Satiety: Physical effort = DECREASED. Eating = INCREASED, Else = NO CHANGE\n-
+    Progression: Moving to exit = INCREASED. Stuck/Trap = DECREASED, Else = NO CHANGE\n-
+    Ended  : If it resolves the event = YES, Else = NO  \n- itemCollected : Name
+    of the item took by player, else None."
+--- !u!1 &5663007413652011596
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6515703019792993882}
+  - component: {fileID: 2872546590618074081}
+  - component: {fileID: 1542767188434263868}
+  m_Layer: 0
+  m_Name: LLMManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6515703019792993882
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5663007413652011596}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.5161657, y: -1.1308545, z: -0.030388389}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2575764486275095177}
+  - {fileID: 2542079022703867984}
+  - {fileID: 9209530002944485370}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2872546590618074081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5663007413652011596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edb3e751e5366b140abcaa7b4f6c3ad8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcName: Narrator
+  loraNarration: qwen3-1.7b_lora_adapter_narration.gguf
+  loraLogic: qwen3-1.7b_lora_adapter_logicV3.gguf
+  loraItem: qwen3-1.7b_lora_adapter_item.gguf
+--- !u!114 &1542767188434263868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5663007413652011596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a50e3140c3ecaaf1c848dbf141cc2074, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  advancedOptions: 1
+  _remote: 0
+  _port: 13333
+  _APIKey: 
+  _SSLCert: 
+  _SSLKey: 
+  _numThreads: 2
+  _numGPULayers: 0
+  _parallelPrompts: 2
+  _contextSize: 4096
+  _batchSize: 256
+  _model: 
+  _flashAttention: 0
+  _reasoning: 0
+  _lora: 
+  _loraWeights: 
+  dontDestroyOnLoad: 1
+  _embeddingsOnly: 0
+  _embeddingLength: 2048
+  minContextLength: 0
+  maxContextLength: 40960
+--- !u!1 &7498059178108288689
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9209530002944485370}
+  - component: {fileID: 5653142259011286119}
+  m_Layer: 0
+  m_Name: ItemAgent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9209530002944485370
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7498059178108288689}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6515703019792993882}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5653142259011286119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7498059178108288689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4326d5ae3b03ff55847035351559f4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  advancedOptions: 1
+  _remote: 0
+  _llm: {fileID: 1542767188434263868}
+  _APIKey: 
+  _host: localhost
+  _port: 13333
+  numRetries: 5
+  _grammar: "root   ::= json\n\rjson ::= \"{\\\"itemDescription\\\": \\\"\" string
+    \"\\\", \\\"satietyGain\\\": \\\"\" threshold \"\\\", \\\"type\\\": \\\"\" itemType
+    \"\\\"}\"\r\nstring ::= [a-zA-Z ]+\r\nthreshold ::= (\"LOW\" | \"MEDIUM\" | \"HIGH\")\nitemType
+    ::= \"FOOD\""
+  numPredict: -1
+  cachePrompt: 1
+  seed: 0
+  temperature: 0.2
+  topK: 100
+  topP: 0.7
+  minP: 0.05
+  repeatPenalty: 1.2
+  presencePenalty: 0.1
+  frequencyPenalty: 0.2
+  typicalP: 1
+  repeatLastN: 128
+  mirostat: 0
+  mirostatTau: 5
+  mirostatEta: 0.1
+  nProbs: 0
+  ignoreEos: 0
+  save: 
+  debugPrompt: 1
+  _slot: 1
+  _systemPrompt: 'You are a game engine for a medieval survival game. Define the
+    item collected by the player based on the game rules.
+
+
+    GAME RULES:
+
+    -
+    itemDescription: Description of the item.
+
+    - satietyGain: Amount of satiety
+    given by the object.
+
+    - type: Type of the object'

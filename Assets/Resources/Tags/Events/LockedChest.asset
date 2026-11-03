@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0c9bf11145387d4497bfc90888d31e9, type: 3}
+  m_Name: LockedChest
+  m_EditorClassIdentifier: 
+  tagName: ' A heavy ironbound chest sits locked in the corner of the room.'
+  repeatDelay: 2
+  hints:
+  - 'Smash the padlock with a heavy stone. '
+  - Leave the chest behind to avoid alerting someone.
+  - Pick the lock with a piece of scrap metal.
+  - Search the nearby furniture for a hidden key.
+  durationBeforeEnded: 1
+  maxDuration: 2

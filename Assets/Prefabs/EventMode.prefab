@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6994955808012922687
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6598387098051629157}
+  - component: {fileID: 7210318035558398503}
+  m_Layer: 0
+  m_Name: EventMode
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6598387098051629157
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6994955808012922687}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.5161657, y: -1.1308545, z: -0.030388389}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7210318035558398503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6994955808012922687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1de1b2aef7357c04b81df1ffc31b8158, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  satietyManager: {fileID: 0}
+  exitManager: {fileID: 0}
+  inventoryManager: {fileID: 0}
+  modePanel: {fileID: 0}
+  satietyUI: {fileID: 0}
+  exitProgressUI: {fileID: 0}
+  diagenManager: {fileID: 0}
+  itemFactory: {fileID: 0}
+  audioManager: {fileID: 0}
+  tagLibrary: {fileID: 11400000, guid: c79aec6d3e8a0464a99b914c2b043774, type: 2}
+  eventPanel: {fileID: 0}
+  userName: You
+  maxNarrationCount: 3

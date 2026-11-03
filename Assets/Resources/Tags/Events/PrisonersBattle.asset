@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0c9bf11145387d4497bfc90888d31e9, type: 3}
+  m_Name: PrisonersBattle
+  m_EditorClassIdentifier: 
+  tagName: Two starving prisoners tear at each other's throats over a crust of moldy
+    bread.
+  repeatDelay: 2
+  hints:
+  - 'Intervene and defend the weaker prisoner. '
+  - Snatch the bread from the dirt while they grapple.
+  - Strike from behind and take down both brawlers.
+  - Shout a false alarm that guards are coming to scatter them.
+  durationBeforeEnded: 1
+  maxDuration: 3

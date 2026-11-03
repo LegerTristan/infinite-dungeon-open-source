@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2834296491788467158
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7863522777621274687}
+  - component: {fileID: 4547438956599837405}
+  m_Layer: 0
+  m_Name: GameMode
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7863522777621274687
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2834296491788467158}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4547438956599837405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2834296491788467158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6d6d1758dcdf004ca4bf77631230d34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  llmSettings:
+    llm: {fileID: 0}
+    temperature: 2
+    topK: 50
+    topP: 0.9
+    frequencyPenalty: 0.8
+    presencePenalty: 0.3
+    seed: -1
+    debug: 0
+  defaultEnabledStateTags:
+  - default
+  optionTables:
+    topicTable: {fileID: 0}
+    eventsTable: {fileID: 0}
+    stateTagsWeightTable: {fileID: 0}
+    characterInformationTable: {fileID: 11400000, guid: 30985e2885826a8428b9a22a730274b3, type: 2}
+  npcName: Narrator
+  chatBox: {fileID: 0}
+  chatHistory: {fileID: 0}
+  directionPanel: {fileID: 0}
+  introText: {fileID: 0}
+  userName: You
+  satietyManager: {fileID: 0}
+  exitManager: {fileID: 0}

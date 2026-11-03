@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0c9bf11145387d4497bfc90888d31e9, type: 3}
+  m_Name: Foods
+  m_EditorClassIdentifier: 
+  tagName: Tantalizing platters of warm food sit unattended across the tables.
+  repeatDelay: 4
+  hints:
+  - Raid the pantry cupboard for crusts of bread.
+  - Scoop a bowl of simmering broth from the hearth pot.
+  - Snatch a roasted cut of meat from the serving table.
+  durationBeforeEnded: 1
+  maxDuration: 3
