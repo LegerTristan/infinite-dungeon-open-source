@@ -1,7 +1,7 @@
 # Infinite Dungeon
 
-> A proof-of-concept mobile game exploring **local LLM inference on Android**. Powered by `llama.cpp` and Unity, this project implements a fully offline, multi-agent narrative system to drive gameplay mechanics (survival, resource management, and event resolution) directly on-device.  
-> *Developed as a Master’s thesis project, focusing on the technical compromise between player agency and mobile hardware constraints through a functional on-device implementation.*
+**A proof-of-concept mobile game exploring **local LLM inference on Android**. Powered by `llama.cpp` and Unity, this project implements a fully offline, multi-agent narrative system to drive gameplay mechanics (survival, resource management, and event resolution) directly on-device.**   
+*Developed as a Master’s thesis project, focusing on the technical compromise between player agency and mobile hardware constraints through a functional on-device implementation.*
 
 ---
 
